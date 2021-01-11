@@ -3,21 +3,58 @@
   padding: 0;
 }
 
-body {
-  /* background-image: url(/THE_LIGHT.JPG);
-    background-size: cover; 
-    object-fit: cover;
-    max-width: 100%;  */
-  background-color: none;
-}
+/* body {
+  object-fit: cover;
 
-img {
+} */
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.picturebox {
+  /* display: block;
+  position: relative;
   left: 0%;
   top: 0%;
   width: 100%;
+  height: 100vh;
+
+  object-fit: cover;
+
+  transform: translate(-50% -50%); */
+}
+#picture1 {
+  display: block;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
 
   object-fit: cover;
 
   transform: translate(-50% -50%);
+}
+
+#picture2 {
+  display: block;
+  position: relative;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+
+  object-fit: cover;
+
+  transform: translate(-50% -50%);
+}
+
+#showMe {
+  display: none;
 }
