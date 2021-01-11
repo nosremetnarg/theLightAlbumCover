@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/THE_LIGHT.JPG);
+    background-size: cover; 
+    object-fit: cover;
+    max-width: 100%;  */
+    background-color: red;
+}
+/* .picturebox {
+    width: 50%;
+} */
+img {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+width: 100%;
+
+object-fit: cover;
+
+transform: translate(-50% -50%)
+}
