@@ -8,7 +8,7 @@ function changeDisplay() {
     console.log("clicked");
     console.log(picture3.style.display);
     if (picture3.style.display === "block" ) {
-        console.log('p1 display block');
+        
         picture3.style.display = "none";
         picture2.style.display = "block";
     } else if (picture3.style.display === "none") {
